@@ -1916,7 +1916,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff21e5;
+  background: #9f7770;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3049,7 +3049,7 @@ body {
 }
 a {
   border-bottom: 0;
-  color: #000;
+  color: #444;
 }
 .btn {
   background: #97dffd;
@@ -3507,7 +3507,7 @@ a {
   -moz-transition: -moz-transform 1s ease-out;
   transition: transform 1s ease-out;
 }
-.site-master .site-master-avatar :hover {
+.site-master .site-master-avatar:hover {
 /* ���꾭��ֹͣͷ����ת 
   	-webkit-animation-play-state:paused;
   	animation-play-state:paused;*/
@@ -3730,6 +3730,9 @@ a {
   color: #444;
   font-size: 25px;
   font-weight: 700;
+}
+.posts-expand .post-title-link:hover {
+  color: #af4444;
 }
 .posts-expand .post-meta {
   color: #555;
